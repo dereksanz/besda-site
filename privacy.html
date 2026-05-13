@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — besda</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+    line-height: 1.6;
+    color: #1c1c1e;
+    background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; background: #000000; }
+    a { color: #7d72ff; }
+  }
+  h1 { font-size: 32px; margin: 0 0 8px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  p { margin: 0 0 16px; }
+  .effective { color: #6e6e73; font-size: 14px; margin-bottom: 24px; }
+  .lead { margin-bottom: 32px; }
+  .lang-switch { text-align: right; font-size: 14px; margin-bottom: 16px; }
+  a { color: #5e5ce6; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<div class="lang-switch"><a href="/privacy?lang=es">Español</a></div>
+
+<h1>Privacy Policy</h1>
+<p class="effective">Effective May 3, 2026</p>
+
+<p class="lead">besda is a regulation tool for neurodivergent dads. Privacy is not a feature here — it is a precondition for the app to work. The choices below are the ones we made so the app stays useful in the moments you actually need it.</p>
+
+<h2>Voice recordings</h2>
+<p>Every voice entry you record stays on your device. We use Apple's on-device speech recognition — your audio never leaves your phone, never reaches our servers, and never reaches Apple. If you delete the app, your recordings go with it.</p>
+
+<h2>Emotional check-ins</h2>
+<p>Your morning check-in answers (sleep hours, sensory load, initiation difficulty) are stored locally on your device only. We use them to show you your own patterns. We do not see them. We do not aggregate them across users.</p>
+
+<h2>Brotherhood Feed posts</h2>
+<p>Feed posts are anonymous by design. We tag each post with a random identifier so you can edit and reply to your own posts, but that identifier is not linked to your name, email, phone, or any contact information. The text of your post is what other users see — nothing else.</p>
+
+<h2>Crash reports</h2>
+<p>Today, no crash-report data leaves your device. When error monitoring is added in a future release, sanitized crash reports may be sent to a third-party provider — stack traces, device model, and iOS version only, never the contents of your voice memos, check-ins, or feed posts. The policy will be re-surfaced for re-acceptance at that time.</p>
+
+<h2>Analytics</h2>
+<p>We do not track individual users. We do not run third-party trackers, advertising SDKs, or A/B testing tools. If aggregate analytics (counts only, no per-user identifiers) are added later, the policy will be re-surfaced for re-acceptance before any data is collected.</p>
+
+<h2>Third-party services</h2>
+<p>Today, the only third-party service that receives any data is Supabase, which hosts the anonymous Brotherhood Feed and crisis-concern flag tables. Supabase does not receive your voice, check-ins, or any data linked to your identity. If additional providers are added later, the policy will be re-surfaced for re-acceptance before any data is sent.</p>
+
+<h2>Apple Health</h2>
+<p>besda can optionally write completed Circuit Breaker (90 seconds) and Re-Entry Ritual (4 minutes) sessions to Apple Health as Mindful Minutes — and only those two session types. besda never reads any Apple Health data. The integration is opt-in: both per-session toggles default off, only appear in Settings after five completed Circuit Breaker sessions, and only trigger the Apple Health permission prompt when you explicitly flip a toggle on. Apple Health data stays on your device under Apple's HealthKit contract.</p>
+
+<h2>Changes to this policy</h2>
+<p>If we change anything material, we will surface a re-acceptance prompt the next time you open the app. Acceptance must always be explicit.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:privacy@besda.app">privacy@besda.app</a></p>
+
+</body>
+</html>

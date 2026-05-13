@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — besda</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+    line-height: 1.6;
+    color: #1c1c1e;
+    background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; background: #000000; }
+    a { color: #7d72ff; }
+    .card { background: #1c1c1e; border-color: #38383a; }
+  }
+  h1 { font-size: 32px; margin: 0 0 8px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  p { margin: 0 0 16px; }
+  .lead { color: #6e6e73; margin-bottom: 32px; }
+  .lang-switch { text-align: right; font-size: 14px; margin-bottom: 16px; }
+  a { color: #5e5ce6; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .card {
+    border: 1px solid #d1d1d6;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 12px 0;
+    background: #f9f9fb;
+  }
+  .card strong { display: block; margin-bottom: 4px; }
+  .crisis {
+    background: #fff4e6;
+    border-color: #ffcd99;
+    padding: 16px 20px;
+    border-radius: 12px;
+    margin: 24px 0;
+  }
+  @media (prefers-color-scheme: dark) {
+    .crisis { background: #2c1c0a; border-color: #6e4a1a; }
+  }
+</style>
+</head>
+<body>
+
+<div class="lang-switch"><a href="/support?lang=es">Español</a></div>
+
+<h1>Support</h1>
+<p class="lead">besda is a regulation tool for neurodivergent dads. If you need help, you're in the right place.</p>
+
+<div class="crisis">
+<strong>If you need someone right now:</strong>
+<p>Call or text <strong>988</strong> (US Suicide &amp; Crisis Lifeline) or text <strong>HOME to 741741</strong> (Crisis Text Line). Both are free, confidential, and 24/7.</p>
+</div>
+
+<h2>Contact</h2>
+<div class="card">
+<strong>Email</strong>
+<a href="mailto:support@besda.app">support@besda.app</a>
+<p style="margin-top:8px; font-size:14px; color:#6e6e73;">We answer most messages within 2 business days. besda is built by one person — please be patient.</p>
+</div>
+
+<h2>Common questions</h2>
+
+<h3>I deleted the app and reinstalled. Where did my entries go?</h3>
+<p>Voice recordings and check-ins are stored entirely on your device. Uninstalling the app removes them with it. This is by design — your data never leaves your phone — but it means there is no backup we can restore from. The Brotherhood Feed posts you submitted are still on Supabase and linked to your old anonymous ID, but with no signup we can't tie a new install to an old account.</p>
+
+<h3>Will my voice memos go anywhere?</h3>
+<p>No. besda uses Apple's on-device speech recognition. Your audio never reaches our servers and never reaches Apple. If the app or your phone is destroyed, the recordings go with it.</p>
+
+<h3>The Circuit Breaker isn't working / a button isn't responding.</h3>
+<p>Try a force-quit (swipe up + swipe the besda card away in the App Switcher) and re-open. If it still doesn't respond, email <a href="mailto:support@besda.app">support@besda.app</a> with your iPhone model and iOS version.</p>
+
+<h3>I want to delete all my data.</h3>
+<p>Open besda → Settings (gear icon, top right of Home) → Delete all my data. Type "DELETE" to confirm. This wipes every check-in, Circuit Breaker session, voice memo, and ritual record from your device permanently.</p>
+
+<h3>Is besda a therapy or medical app?</h3>
+<p>No. besda is a regulation tool. It does not diagnose, treat, or cure any condition. If you're managing a mental health condition, keep working with your doctor or therapist — besda is meant to support that, not replace it.</p>
+
+<h2>Privacy</h2>
+<p>The full privacy policy is at <a href="/privacy">besda.app/privacy</a>.</p>
+
+</body>
+</html>
